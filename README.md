@@ -54,3 +54,12 @@ View the simulated digital signals visually using GTKWave:
 Bash
 gtkwave and_gate_test.vcd
 
+
+Future Milestones
+Implement a 4-bit Binary Multiplier
+
+Explore Sequential Logic (Flip-flops, Latches, Counters)
+
+esign a fully functional 8-bit ALU (Arithmetic Logic Unit)
+
+ Maintained by @olivermac84-dev
