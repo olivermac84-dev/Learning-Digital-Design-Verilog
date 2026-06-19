@@ -33,3 +33,5 @@ If you want to clone this repository and test the designs on your machine, ensur
 
 ```bash
 sudo apt update && sudo apt install iverilog gtkwave -y
+
+
