@@ -35,3 +35,22 @@ If you want to clone this repository and test the designs on your machine, ensur
 sudo apt update && sudo apt install iverilog gtkwave -y
 
 
+
+Example: Simulating the AND Gate
+Navigate to the project directory:
+
+Bash
+cd 01_and_gate
+Compile the design and the testbench file together:
+
+Bash
+iverilog -o and_gate_sim.vvp and_gate.v tb_and_gate.v
+Run the compiled simulator to generate the VCD (Value Change Dump) waveform file:
+
+Bash
+vvp and_gate_sim.vvp
+View the simulated digital signals visually using GTKWave:
+
+Bash
+gtkwave and_gate_test.vcd
+
